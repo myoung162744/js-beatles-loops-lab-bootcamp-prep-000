@@ -1,5 +1,6 @@
+var empty = []
+
 function theBeatlesPlay(arraym, arrayi) {
-  var empty = []
   for (let i=0; i < arraym.length; i++) {
     empty.push(arraym[i]+' plays '+arrayi[i])
   }
@@ -8,9 +9,8 @@ function theBeatlesPlay(arraym, arrayi) {
 let i = 0
 function johnLennonFacts(array) {
   while (i < array.length) {
-    var newArray = []
-    newArray.push(array[i]+'!!!')
+    empty.push(array[i]+'!!!')
     i++
   }
-  return newArray
+  return empty
 }
